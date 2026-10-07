@@ -2,7 +2,7 @@
  * API client service for LifeLink REST endpoints
  */
 
-const API_BASE = '/api';
+const API_BASE = 'https://lifelink-server-uibz.onrender.com/api';
 
 const getHeaders = () => {
   const token = localStorage.getItem('lifelink_token');
